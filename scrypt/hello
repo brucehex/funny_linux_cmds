@@ -1,8 +1,9 @@
 #!/bin/bash
+
 case "$1" in
-""|-h) echo "This is the fantastic Hello World. Try this:" $(basename $0) "[entity]" ;;
-moon) echo Good night. ;;
-sun) echo Good morning. ;;
-world) echo "Hello, world!" ;;
-*) echo Hi, $@. ;;
+    ""|-h) echo "This is the fantastic Hello World. Try this:" $(basename $0) "[entity]" ;;
+    moon) echo Good night. ;;
+    sun) echo Good morning. ;;
+    world) echo "Hello, world!" ;;
+    *) echo Hi, $@. ;;
 esac
