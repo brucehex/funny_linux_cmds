@@ -24,9 +24,6 @@ Enter passphrase:
 SHA1 check failed
 Stdin was NOT decrypted successfully.
 /dev/fd/63:行1: 未预期的符号 `$'^\252\247s\251\303Q\260\355\347a'' 附近有语法错误
-/dev/fd/63:行1: `ݝ���w{��o�[k��(^��s��Q���a|��*��~T�k���懌�$�%(B�x�YL��z2�g�(a�aߟl��4E��8�K��9
-                P�[�R�q���1E@*��!�j�Tg�2Kh+�x��K�Jj�Wq���P���/=��'= ���3������@�B�a�ƞ<���qQ+��;���eN�J1
-                              o3g�J�rx���RǨ�lakB�GG�J?K��-�'
 
 # script works as expected if password is correct.
 [root@hluo scrypt]# ./hello.scrypt
